@@ -1,10 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
-    /* フォントファミリーをArial, sans-serifに設定 */
-    margin: 0;
-    /* マージンをゼロに設定 */
-    padding: 0;
-    /* パディングをゼロに設定 */
     background-color: #f0f0f0;
     /* 背景色を淡いグレーに設定 */
     color: #333;
@@ -23,7 +17,7 @@ footer {
     /* ヘッダーとフッターの背景色を濃いグレーに設定 */
     color: #fff;
     /* テキストカラーを白に設定 */
-    padding: 10px 0;
+    padding: 10px;
     /* 上下に10pxのパディングを設定 */
 }
 
@@ -35,40 +29,16 @@ footer {
     /* 最大幅を800pxに設定 */
 }
 
-#toc ol,
-#related-links ol {
-    list-style-type: none;
-    /* リストのスタイルを無しに設定 */
-    padding: 0;
-    /* パディングをゼロに設定 */
-}
-
-#toc ol li,
-#related-links ol li {
-    margin: 10px 0;
-    /* 各リスト項目に10pxのマージンを設定 */
-}
-
 #toc ol li a,
 #related-links ol li a {
     color: #fff;
     /* リンクの色を白に設定 */
-    text-decoration: none;
-    /* テキスト装飾を無しに設定 */
-}
-
-#toc ol li a:hover,
-#related-links ol li a:hover {
-    text-decoration: underline;
-    /* ホバー時のテキスト装飾を下線に設定 */
 }
 
 main {
     padding: 20px;
     /* メインコンテンツに20pxのパディングを設定 */
-    max-width: 800px;
-    /* 最大幅を800pxに設定 */
-    margin: 0 auto;
+    margin: auto;
     /* 自動マージンで中央揃えに設定 */
 }
 
@@ -90,19 +60,12 @@ main {
     /* テキストを中央揃えに設定 */
     margin: 20px auto;
     /* 上下に20pxのマージン、左右に自動マージンを設定 */
-    padding: 10px 20px;
-    /* パディングを10px上左右、20pxに設定 */
+    padding: 10px;
+    /* パディングを10px設定*/
     background-color: #333;
     /* 背景色を濃いグレーに設定 */
     color: #fff;
     /* テキストカラーを白に設定 */
-    text-decoration: none;
-    /* テキスト装飾を無しに設定 */
     border-radius: 5px;
     /* 角を5pxの半径で丸くする */
-}
-
-.next-btn:hover {
-    background-color: #555;
-    /* ホバー時の背景色を少し明るいグレーに設定 */
 }
