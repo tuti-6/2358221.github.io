@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shuto Tsuchiya">
+    <meta name="keyword" content="html, css, javascript">
+    <link rel="stylesheet" href="./CSS/page.css">
+    </script>
+    <title>学習ツール - クイズ 2</title>
+</head>
+
+<body>
+    <h1>学習ツール - クイズ 2</h1>
+    <header>
+        <nav class="agenda" id="toc">
+            <h2>目次</h2>
+            <ol>
+                <li><a href="#topic2">条件分岐</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <section id="topic2" class="topic">
+            <h2>トピック 2: 条件分岐</h2>
+            <div class="quiz">
+                <p class="quiz-question">条件分岐の正しい文法はどれですか？</p>
+                <ul class="quiz-choices">
+                    <li><input type="radio" name="quiz2" id="q2a1"> if (x == 5) {}</li>
+                    <li><input type="radio" name="quiz2" id="q2a2"> if x = 5 {}</li>
+                    <li><input type="radio" name="quiz2" id="q2a3"> if (x = 5) {}</li>
+                </ul>
+                <button onclick="chk('quiz2', 'q2a1')">答えを確認</button>
+            </div>
+            <a href="./page3.html" class="next-btn">次へ</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>「著者」： &copy; Shuto Tsuchiya</p>
+    </footer>
+    <script src="./JS/page2.js"></script>
+</body>
+
+</html>
